@@ -105,3 +105,28 @@ body {
 #container.ended .game-over p {
   transition-delay: 0.3s;
 }
+#logo-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  background: #f5f5f5cc;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+#main-logo {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+  margin-right: 16px;
+}
+#creator-name {
+  font-size: 1.2em;
+  color: #334;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
